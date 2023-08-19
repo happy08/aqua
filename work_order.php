@@ -107,22 +107,6 @@
         </div>
         <!-- End Page-content -->
 
-
-        <footer class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <a href="#!" class="text-dark me-4">隱私權政策</a>
-                        <a href="#!" class="text-dark">水藝空間官方網站</a>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="text-sm-end d-none d-sm-block">
-                            © 2023 <a href="#!" class="text-dark">AQUA</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
     <!-- end main content-->
         

@@ -29,6 +29,9 @@
     <!-- App Css-->
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 
+    <!-- diyUpload Css-->
+    <link href="assets/libs/diyUpload/diyUpload.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
@@ -130,6 +133,12 @@
                             <a href="work_order.php">
                                 <i class="icon font_family icon-piggy-bank me-2"></i>
                                 <span>我的工單</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components.php">
+                                <i class="icon font_family icon-layout-text-sidebar-reverse me-2"></i>
+                                <span>components</span>
                             </a>
                         </li>
                         <li>
