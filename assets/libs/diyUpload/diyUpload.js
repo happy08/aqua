@@ -35,6 +35,7 @@
 
             //迭代出默认配置
             $.each(getOption('#' + $fileInputId), function (key, value) {
+                console.log('key, value', key, value)
                 opt[key] = opt[key] || value;
             });
 
@@ -44,6 +45,7 @@
             }
 
             var webUploader = getUploader(opt);
+            console.log('webUploader', webUploader)
 
             if (!WebUploader.Uploader.support()) {
                 alert(' 請升級瀏覽器！');
@@ -53,7 +55,6 @@
             //绑定文件加入队列事件;
             webUploader.on('fileQueued', function (file) {
                 createBox($fileInput, file, webUploader);
-
             });
 
             //进度条事件
@@ -63,7 +64,6 @@
                 $diyBar.show();
                 percentage = percentage * 100;
                 showDiyProgress(percentage.toFixed(2), $diyBar);
-
             });
 
             //全部上传结束后触发;
@@ -132,7 +132,7 @@
             //按钮容器;
             pick: {
                 id: objId,
-                label: ""
+                label: "<div style='font-size:26px'> + </div><div>Upload</div>"
             },
             //类型限制;
             accept: {
@@ -149,15 +149,17 @@
                 // 是否允许放大，如果想要生成小图的时候不失真，此选项应该设置为false.
                 allowMagnify: false,
                 // 是否允许裁剪。
-                crop: true,
+                crop: false,
                 // 为空的话则保留原有图片格式。
                 // 否则强制转换成指定的类型。
                 type: "image/jpeg"
             },
+            // 自动上传。
+            auto: true,
             //文件上传方式
             method: "POST",
             //服务器地址;
-            server: "",
+            server: "/uploadFile",
             //是否已二进制的流的方式发送文件，这样整个上传内容php://input都为文件内容
             sendAsBinary: false,
             // 开起分片上传。 thinkphp的上传类测试分片无效,图片丢失;
@@ -173,7 +175,6 @@
 
     //实例化Web Uploader
     function getUploader(opt) {
-
         return new WebUploader.Uploader(opt);
     }
 
@@ -188,7 +189,7 @@
         }
 
         var $diyProgress = $diyBar.find('.diyProgress');
-        $diyProgress.width(progress).text(text);
+        $diyProgress.text(text);
 
     }
 
@@ -211,7 +212,7 @@
     //创建文件操作div;
     function createBox($fileInput, file, webUploader) {
         var file_id = file.id;
-        var $parentFileBox = $fileInput.parents(".upload-ul");
+        var $parentFileBox = $fileInput.parents(".diy-upload-container");
         var file_len = $parentFileBox.children(".diyUploadHover").length;
 
         //添加子容器;
@@ -221,7 +222,7 @@
 					    <div class="diyBar"> \
 							<div class="diyProgress">0%</div> \
 					    </div> \
-					    <p class="diyControl"><span class="diyLeft"><i></i></span><span class="diyCancel"><i></i></span><span class="diyRight"><i></i></span></p>\
+					    <div class="diyControl"><span class="diyLeft"><i></i></span><span class="diyCancel"><i></i></span><span class="diyRight"><i></i></span></div>\
 					</div> \
 				</li>';
 

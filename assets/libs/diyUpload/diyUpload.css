@@ -1,11 +1,11 @@
-.upload-ul {
+.diy-upload-container {
     position: relative;
     display: inline-block;
     padding: 0;
     margin: 0;
 }
 
-.upload-ul li {
+.diy-upload-container li {
     position: relative;
     float: left;
     display: inline-block;
@@ -21,26 +21,36 @@
     overflow: hidden;
 }
 
-.upload-pick {
+.diy-upload-pick {
     background: url(./img/upload-bj.png) no-repeat 0 0;
 }
 
-.upload-pick:hover {
+.diy-upload-pick:hover {
     background: url(./img/upload-bj.png) no-repeat 0 -90px;
 }
 
 .webuploader-pick {
     position: relative;
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
+    border: dashed 1px #ADB5BD;
+    line-height: 26px;
+    color: #8a8989;
 }
 
 .webuploader-container {
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+.webuploader-container:hover .webuploader-pick{
+    border: dashed 1px #0d6efd33;
+    background-color: #0d6efd33;
 }
 
 .webuploader-container label {

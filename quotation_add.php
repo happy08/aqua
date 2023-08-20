@@ -179,9 +179,9 @@
                             <div class="mb-2">
                                 圖片上傳
                             </div>
-                            <ul class="upload-ul clearfix">
-                                <li class="upload-pick">
-                                    <div class="webuploader-container clearfix" id="goodsUpload"></div>
+                            <ul class="diy-upload-container">
+                                <li>
+                                    <div class="webuploader-container" id="goodsUpload"></div>
                                 </li>
                             </ul>
 
@@ -224,30 +224,20 @@
 
 <?php require_once("footer.php");?>
 
-<script src="https://s1.pstatp.com/cdn/expire-1-M/jquery/1.10.2/jquery.min.js"></script>
 <script src="assets/libs/diyUpload/webuploader.min.js"></script>
 <script src="assets/libs/diyUpload/diyUpload.js"></script>
-
 <script>
     $(function(){
-        //上传图片
-        var $tgaUpload = $('#goodsUpload').diyUpload({
-            url:'/uploadFilePath',
-            success:function( data ) { },
-            error:function( err ) { },
-            buttonText : '',
+        // 上传图片
+        var $tgaUpload = $('#goodsUpload').diyUpload({            
+            url: "/uploadFile.php", // 服务器地址
+            fileNumLimit: 1,
+            success:function( data ) { console.log('success', data) },
+            error:function( err ) { console.log('error', err) },
             accept: {
                 title: "Images",
                 extensions: 'gif,jpg,jpeg,bmp,png'
             },
-            thumb:{
-                width:120,
-                height:90,
-                quality:100,
-                allowMagnify:true,
-                crop:true,
-                type:"image/jpeg"
-            }
         });
     });
 </script>
