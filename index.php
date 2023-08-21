@@ -28,36 +28,38 @@
                                 查看更多
                             </a>
                         </div>
-                        <table class="table table-hover border-top">
-                            <thead>
-                                <tr>
-                                    <th scope="col">編號</th>
-                                    <th scope="col">專案編號</th>
-                                    <th scope="col">專案內容</th>
-                                    <th scope="col">建立日期</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>DE-012459534</td>
-                                    <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                    <td>2023-07-26</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">02</th>
-                                    <td>DE-012459534</td>
-                                    <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                    <td>2023-07-26</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">03</th>
-                                    <td>DE-012459534</td>
-                                    <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                    <td>2023-07-26</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-hover border-top" style="min-width: 480px">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" width="80">編號</th>
+                                        <th scope="col" width="120">專案編號</th>
+                                        <th scope="col" width="160">專案內容</th>
+                                        <th scope="col" width="120">建立日期</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">01</th>
+                                        <td>DE-012459534</td>
+                                        <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                        <td>2023-07-26</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">02</th>
+                                        <td>DE-012459534</td>
+                                        <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                        <td>2023-07-26</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">03</th>
+                                        <td>DE-012459534</td>
+                                        <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                        <td>2023-07-26</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div><!-- end card body -->
                 </div><!-- end card -->
 
@@ -75,36 +77,38 @@
                                 查看更多
                             </a>
                         </div>
-                        <table class="table table-hover border-top">
-                            <thead>
-                                <tr>
-                                    <th scope="col">編號</th>
-                                    <th scope="col">專案編號</th>
-                                    <th scope="col">專案內容</th>
-                                    <th scope="col">建立日期</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>DE-012459534</td>
-                                    <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                    <td>2023-07-26</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">02</th>
-                                    <td>DE-012459534</td>
-                                    <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                    <td>2023-07-26</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">03</th>
-                                    <td>DE-012459534</td>
-                                    <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                    <td>2023-07-26</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-hover border-top" style="min-width: 480px">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" width="80">編號</th>
+                                        <th scope="col" width="120">專案編號</th>
+                                        <th scope="col" width="160">專案內容</th>
+                                        <th scope="col" width="120">建立日期</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">01</th>
+                                        <td>DE-012459534</td>
+                                        <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                        <td>2023-07-26</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">02</th>
+                                        <td>DE-012459534</td>
+                                        <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                        <td>2023-07-26</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">03</th>
+                                        <td>DE-012459534</td>
+                                        <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                        <td>2023-07-26</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div><!-- end card body -->
                 </div><!-- end card -->
             </div>

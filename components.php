@@ -15,29 +15,31 @@
                                 <div class="d-flex justify-content-between mb-2">
                                     <h3>table</h3>
                                 </div>
-                                <table class="table table-hover border-top">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">編號</th>
-                                            <th scope="col">專案編號</th>
-                                            <th scope="col">專案內容</th>
-                                            <th scope="col">建立日期</th>
-                                            <th scope="col">編輯</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">01</th>
-                                            <td>DE-012459534</td>
-                                            <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
-                                            <td>2023-07-26</td>
-                                            <td>
-                                                <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
-                                                <a href="#"><i class="icon font_family icon-trash3-fill text-danger font-size-20"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div class="table-responsive">
+                                    <table class="table table-hover border-top" style="min-width: 500px">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" width="80">編號</th>
+                                                <th scope="col" width="120">專案編號</th>
+                                                <th scope="col" width="160">專案內容</th>
+                                                <th scope="col" width="120">建立日期</th>
+                                                <th scope="col" width="100">編輯</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">01</th>
+                                                <td>DE-012459534</td>
+                                                <td>五金配件/玻璃高度200cm/安裝負責施工...</td>
+                                                <td>2023-07-26</td>
+                                                <td>
+                                                    <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
+                                                    <a href="#"><i class="icon font_family icon-trash3-fill text-danger font-size-20"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                                 <!-- pagination -->
                                 <nav class="d-flex justify-content-end">
                                     <ul class="pagination shadow-lg">

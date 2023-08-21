@@ -289,9 +289,18 @@ body[data-topbar=dark] .app-search span {
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:480px) {
+    .navbar-header{
+        padding-right: 10px;
+    }
+    #vertical-menu-btn{
+        margin-right: 0 !important;
+    }
     .navbar-brand-box {
-        display: none
+        padding: 0 0.1rem;
+    }
+    .icon-plus-square{
+        display: none;
     }
 }
 

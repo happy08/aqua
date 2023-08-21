@@ -42,46 +42,48 @@
                                 </button>
                             </form>
                         </div>
-                        <table class="table table-hover border-top">
-                            <thead>
-                                <tr>
-                                    <th scope="col">編號</th>
-                                    <th scope="col">訂單編號</th>
-                                    <th scope="col">狀態</th>
-                                    <th scope="col">建立日期</th>
-                                    <th scope="col">編輯</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>DE-012459534</td>
-                                    <td><span class="text-primary">代處理</span></td>
-                                    <td>2023-07-26</td>
-                                    <td>
-                                        <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>DE-012459534</td>
-                                    <td><span class="text-danger">代處理</span></td>
-                                    <td>2023-07-26</td>
-                                    <td>
-                                        <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">01</th>
-                                    <td>DE-012459534</td>
-                                    <td><span class="text-black-50">代處理</span></td>
-                                    <td>2023-07-26</td>
-                                    <td>
-                                        <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-hover border-top">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">編號</th>
+                                        <th scope="col">訂單編號</th>
+                                        <th scope="col">狀態</th>
+                                        <th scope="col">建立日期</th>
+                                        <th scope="col">編輯</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">01</th>
+                                        <td>DE-012459534</td>
+                                        <td><span class="text-primary">代處理</span></td>
+                                        <td>2023-07-26</td>
+                                        <td>
+                                            <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">01</th>
+                                        <td>DE-012459534</td>
+                                        <td><span class="text-danger">代處理</span></td>
+                                        <td>2023-07-26</td>
+                                        <td>
+                                            <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">01</th>
+                                        <td>DE-012459534</td>
+                                        <td><span class="text-black-50">代處理</span></td>
+                                        <td>2023-07-26</td>
+                                        <td>
+                                            <a href="#"><i class="icon font_family icon-pencil-square text-success font-size-20 me-2"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div><!-- end card body -->
                 </div><!-- end card -->
 
